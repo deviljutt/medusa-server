@@ -1,0 +1,5 @@
+{
+  "framework": "nextjs",
+  "devCommand": "next dev",
+  "cleanUrls": true
+}
