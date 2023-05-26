@@ -13,6 +13,7 @@
     "medusa"
   ],
   "scripts": {
+    "clean": "node_modules/.bin/rimraf dist",
     "build": "npm run clean && tsc -p tsconfig.json",
     "watch": "tsc --watch",
     "test": "jest",
